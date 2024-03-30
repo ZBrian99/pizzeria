@@ -1,0 +1,112 @@
+.Service {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    text-align: center;
+    padding: 3rem 1rem;
+
+    background-image: url("src/assets/Service.png");
+    color: black;
+
+    &-Title {
+        letter-spacing: 1px;
+        font-size: 2.2em;
+        font-weight: 600;
+    }
+
+    &-Description {
+        color: rgba(20, 20, 20, 0.37);
+        font-weight: 300;
+        font-size: .9em;
+    }
+
+    &-Icon {
+        z-index: 10;
+        font-size: 5em;
+        position: relative;
+        color: #000000;
+        border: 1px solid transparent;
+        width: min-content;
+        margin: 0 auto;
+        padding: 1rem;
+
+
+    }
+
+    &-BackgroundEfect {
+
+        transition: all 1s ease;
+        width: min-content;
+        margin: 0 auto;
+        position: relative;
+
+        &::after {
+            content: "";
+            transition: all .4s ease-in-out;
+            // transition: transform .2s ease-out;
+            position: absolute;
+            width: 110%;
+            height: 110%;
+            top: -5%;
+            left: -5%;
+            z-index: 0;
+        }
+        
+        &::before {
+            transition: all .4s .2s ease;
+            transform: rotate(-90deg);
+            box-sizing: border-box;
+            content: "";
+            position: absolute;
+            width: 110%;
+            border: 1px solid black;
+            height: 110%;
+            
+            top: -5%;
+            left: -5%;
+            
+            
+        }
+        
+        &:hover {
+            &::before {
+                transform: rotate(45deg);
+                transition: none;
+                border: 1px solid transparent;
+                z-index: 1;
+                
+                
+            }
+            
+            &::after {
+                
+                transition: transform .4s ease-in-out;
+                
+                background-color: #F8B500;
+
+                transform: rotate(45deg)
+            }
+            
+            &:hover .Service-Icon {
+                color: white;
+                border: 1px solid transparent;
+
+            }
+        }
+    }
+
+    &-Subtitle {
+
+        letter-spacing: 1px;
+        font-size: 1.5em;
+    }
+
+    &-Section {
+        flex-direction: column;
+        display: flex;
+        gap: 2.5rem;
+
+
+    }
+}

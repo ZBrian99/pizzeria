@@ -1,0 +1,69 @@
+.Info {
+    display: flex;
+    width: 100%;
+    background-color: black;
+
+    &-TextDisplayer {
+        width: 70%;
+        height: 100%;
+        color: white;
+    }
+
+    &-SocialButtonContainer {
+        width: 30%;
+        height:auto;
+        background-color: #fac654;     
+        align-items: center;   
+        justify-content: center;
+        gap: 16px;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 0;    }
+
+
+    &-SocialLink {
+        &:hover{
+
+            
+        }
+    }
+
+    &-Logo {
+
+        width: 1rem;
+fill: #fac654
+    }
+
+    &-Social {
+        width: 3rem;
+
+    }
+
+    &-Displayer {
+        display: flex;
+        color: white;
+        margin: 1rem;
+        gap: 16px;
+        align-items: center;
+    }
+
+
+
+    &-DisplayerDescription {
+        display: flex;
+        justify-content: center;
+        gap: .1rem;
+        flex-direction: column;
+    }
+
+    &-DisplayerTitle {
+        font-size: 1.25em;
+    }
+
+    &-DisplayerSubtitle {
+        font-size: .9em;
+    color: gray;
+
+    }
+
+}

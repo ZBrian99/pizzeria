@@ -1,0 +1,55 @@
+.PricingCard {
+	display: flex;
+	width: 100%;
+	@media screen and (min-width: 768px) {
+		width: 50%;
+	}
+	height: 4.25rem;
+	margin: 1rem 0;
+	&-ImageContainer {
+		width: 25%;
+		height: auto;
+		display: flex;
+		justify-content: center;
+	}
+
+	&-Image {
+		width: auto;
+		height: 100%;
+		object-fit: cover;
+		border-radius: 50%;
+		overflow: hidden;
+	}
+
+	&-Info {
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+	}
+
+	&-Title {
+		color: #dadada;
+
+		background-color: rgb(0, 0, 0, 0.2);
+	}
+
+	&-Price {
+		background-color: rgb(0, 0, 0, 0.2);
+		opacity: 0;
+		color: #fac564;
+    font-size: 1.5em;
+		transition: all 0.2s ease-in-out;
+		padding-left: 1rem;
+	}
+
+	&-Description {
+		color: #808080;
+		font-size: 0.9em;
+		flex-basis: 100%;
+	}
+
+	&:hover &-Price {
+		background-color: rgb(0, 0, 0, 0.2);
+		opacity: 1;
+	}
+}

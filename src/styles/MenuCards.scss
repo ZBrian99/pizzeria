@@ -1,0 +1,73 @@
+.MenuCard {
+	width: 100%;
+	height: 15rem;
+	display: flex;
+	overflow: hidden;
+	&:nth-child(even) {
+		flex-direction: row-reverse;
+	}
+	&-ImagenContainer {
+		width: 50%;
+		height: 100%;
+	}
+
+	&-Imagen {
+		width: 100%;
+		object-fit: cover;
+		height: 100%;
+	}
+
+	&-Info {
+		display: flex;
+		flex-direction: column;
+		padding: 1.5rem;
+		width: 50%;
+		height: 100%;
+		background-color: rgb(0, 0, 0, 0.3);
+		justify-content: space-between;
+		overflow: hidden;
+	}
+
+	&-Title {
+		font-size: 1.5em;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		text-wrap: nowrap;
+	}
+
+	&-Subtitle {
+		font-style: 1.2em;
+		color: #808080;
+		overflow: hidden;
+	}
+
+	&-SubContainer {
+		display: flex;
+		gap: 16px;
+		justify-content: space-between;
+	}
+
+	&-Price {
+		font-weight: 300;
+		color: #fac564;
+		font-family: 'Poppins', sans-serif;
+		font-weight: 300;
+		font-style: normal;
+		text-overflow: ellipsis;
+		overflow: hidden;
+	}
+
+	&-OrderButton {
+		padding: 1rem;
+		background-color: transparent;
+		color: white;
+		border: 1px solid white;
+
+		&:hover {
+			background-color: #fac564;
+			color: black;
+			border: 1px solid transparent;
+			cursor: pointer;
+		}
+	}
+}

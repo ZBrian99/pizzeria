@@ -1,0 +1,111 @@
+.Stats {
+	z-index: -2;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+  gap: 5rem;
+  padding: 5rem 1rem;
+  justify-content: space-evenly;
+	background-image: url('../assets/backgrounds/bg_2.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	position: relative;
+	&::after {
+		z-index: -1;
+		content: ''; /* Añade un pseudo-elemento para crear una capa */
+		position: absolute; /* Establece la posición absoluta para que cubra todo el contenedor */
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background-color: rgba(0, 0, 0, 0.8); /* Color negro con una opacidad del 50% */
+		pointer-events: none; /* Asegúrate de que el pseudo-elemento no afecte a los eventos del ratón */
+	}
+
+	&-Section {
+		display: flex;
+		// margin: 3rem 0;
+		flex-direction: column;
+		text-align: center;
+		gap: 1rem;
+	}
+
+	&-Description {
+		font-size: 0.8em;
+	}
+
+	&-Icon {
+		z-index: 10;
+		font-size: 5em;
+		position: relative;
+		color: #fac564;
+		border: 1px solid transparent;
+		width: min-content;
+		margin: 0 auto;
+		padding: 1rem;
+	}
+
+	&-BackgroundEfect {
+		transition: all 1s ease;
+		width: min-content;
+		margin: 0 auto;
+		position: relative;
+
+		&::after {
+			content: '';
+			transition: all 0.4s ease-in-out;
+			// transition: transform .2s ease-out;
+			position: absolute;
+			width: 110%;
+			height: 110%;
+			top: -5%;
+			left: -5%;
+			z-index: 0;
+		}
+
+		&::before {
+			transition: all 0.4s 0.2s ease;
+			transform: rotate(-90deg);
+			box-sizing: border-box;
+			content: '';
+			position: absolute;
+			width: 110%;
+			border: 1px solid #fac564;
+			height: 110%;
+
+			top: -5%;
+			left: -5%;
+		}
+
+		&:hover {
+			&::before {
+				transform: rotate(45deg);
+				transition: none;
+				border: 1px solid transparent;
+				z-index: 1;
+			}
+
+			&::after {
+				transition: transform 0.4s ease-in-out;
+
+				background-color: #ffcf4c;
+
+				transform: rotate(45deg);
+			}
+
+			&:hover .Stats-Icon {
+				color: rgb(0, 0, 0);
+				border: 1px solid transparent;
+			}
+		}
+	}
+
+	&-Subtitle {
+		color: #fac564;
+
+		margin-top: 2rem;
+
+		font-size: 1.5em;
+	}
+}

@@ -1,0 +1,87 @@
+.Hero {
+	padding: 3rem 0;
+	gap: 1rem;
+	overflow: hidden;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	color: #fff;
+
+	&-info {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		gap: 1rem;
+		justify-content: center;
+		padding: 0 1rem;
+	}
+
+	&-imgContainer {
+		margin: 2rem 0;
+		width: 100%;
+		height: 100%;
+    width: auto;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	&-img {
+		object-fit: cover;
+		width: 100%;
+		height: 100%;
+	}
+
+	&-frase {
+		font-size: 2.5em;
+		color: white;
+		font-family: bold;
+		letter-spacing: 1px;
+	}
+
+	&-title {
+		font-size: 2em;
+		font-family: 'Nothing You Could Do', cursive;
+		font-weight: 600;
+		font-style: normal;
+		color: #fac654;
+	}
+
+	&-subtitle {
+		font-size: 1.2em;
+		color: white;
+		text-align: center;
+		padding: 0 1rem;
+	}
+
+	&-buttonContainer {
+		display: flex;
+		gap: 1rem;
+		margin: 1rem 0;
+	}
+	&-Button {
+		display: flex;
+		padding: 16px 24px 16px 24px;
+		color: #fff;
+		font-size: 0.8em;
+		border: 1px solid #808080;
+		background-color: transparent;
+		transition: all 0.2s ease;
+		-webkit-transition: all 0.2s ease;
+		-moz-transition: all 0.2s ease;
+		-ms-transition: all 0.2s ease;
+		-o-transition: all 0.2s ease;
+
+		&:hover {
+			color: black;
+			cursor: pointer;
+			border: 1px solid #fac564;
+			background-color: #fac564;
+		}
+	}
+	&-ButtonLink {
+		text-decoration: none;
+	}
+}

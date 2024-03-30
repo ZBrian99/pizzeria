@@ -1,0 +1,18 @@
+.Info-Displayer {
+    display: flex;
+    color: white;
+    
+    &-Logo {
+width: 3rem;
+        
+    }
+
+    &-DisplayerDescription {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &-DisplayerTitle {}
+
+    &-DisplayerSubtitle {}
+}
