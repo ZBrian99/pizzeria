@@ -7,7 +7,7 @@ export const NavButton = ({ url, setNavIsOpen, children }) => {
 
     window.scrollTo({
       top: 0,
-      behavior: "auto"
+      behavior: "instant"
     });
   };
   return (
