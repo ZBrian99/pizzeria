@@ -1,4 +1,4 @@
-import '../styles/NavBar.scss';
+import '../styles/components/NavBar.scss';
 import { NavButton } from './NavButton';
 import { NavBrand } from './NavBrand';
 import { useEffect, useRef, useState } from 'react';

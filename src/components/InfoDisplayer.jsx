@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/InfoDisplayer.scss'
+import '../styles/components/InfoDisplayer.scss'
 import Instagramicon from '../assets/Instagramicon.svg'
 export const InfoDisplayer = () => {
   return (

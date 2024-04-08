@@ -1,5 +1,5 @@
 import React from 'react'
-import "../styles/Pricing.scss"
+import "../styles/components/Pricing.scss"
 import { PricingCard } from './PricingCard'
 import { pizzas } from '../data.json'
 export const Pricing = () => {

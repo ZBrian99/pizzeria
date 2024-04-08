@@ -5,12 +5,12 @@ import {
   Navigate,
 } from "react-router-dom";
 import { NavBar } from "./components/NavBar";
-import { HomePage } from "./routes/HomePage";
-import { MenuPage } from "./routes/MenuPage";
-import { NewsPage } from "./routes/NewsPage";
-import { ServicesPage } from "./routes/ServicesPage";
-import { AboutUsPage } from "./routes/AboutUsPage";
-import { ContactPage } from "./routes/ContactPage";
+import { HomePage } from "./pages/HomePage";
+import { MenuPage } from "./pages/MenuPage";
+import { NewsPage } from "./pages/NewsPage";
+import { ServicesPage } from "./pages/ServicesPage";
+import { AboutUsPage } from "./pages/AboutUsPage";
+import { ContactPage } from "./pages/ContactPage";
 import { Footer } from "./components/Footer";
 
 export const App = () => {

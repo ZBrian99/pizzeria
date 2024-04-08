@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import "../styles/PricingCarousel.scss"
+import "../styles/components/PricingCarousel.scss"
 export const PricingCarousel = () => {
     const [isMoving, setIsMoving] = useState(false)
     const [direction, setDirection] = useState(false)

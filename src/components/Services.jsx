@@ -2,7 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { fas } from '@fortawesome/free-solid-svg-icons'; // Importa todos los íconos sólidos
 
-import '../styles/Services.scss';
+import '../styles/components/Services.scss';
 
 
 

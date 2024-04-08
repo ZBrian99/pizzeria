@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/Info.scss'
+import '../styles/components/Info.scss'
 import Instagramicon from '../assets/Instagramicon.svg'
 import { InfoDisplayer } from './InfoDisplayer'
 import { InstagramLogo } from './svgs/InstagramLogo'

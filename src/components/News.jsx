@@ -1,5 +1,5 @@
 import React from 'react'
-import "../styles/News.scss"
+import "../styles/components/News.scss"
 import { NewsCard } from './NewsCard'
 import {pizzas} from '../data.json'
 export const News = () => {

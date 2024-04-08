@@ -1,4 +1,4 @@
-import "../styles/Button.scss"
+import "../styles/components/Button.scss"
 
 export const Button = () => {
   return (

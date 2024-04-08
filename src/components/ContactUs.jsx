@@ -1,5 +1,5 @@
 import React from 'react'
-import "../styles/ContactUs.scss"
+import "../styles/components/ContactUs.scss"
 export const ContactUs = () => {
     return (
         <div className='ContactUs'>

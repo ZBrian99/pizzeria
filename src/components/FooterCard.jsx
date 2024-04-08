@@ -1,5 +1,5 @@
 import React from 'react'
-import "../styles/FooterCard.scss";
+import "../styles/components/FooterCard.scss";
 export const FooterCard = ({
     imagen = "src/assets/news/image_1.jpg",
     title = "lorem",

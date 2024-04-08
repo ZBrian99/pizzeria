@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import '../styles/NavButton.scss';
+import '../styles/components/NavButton.scss';
 
 export const NavButton = ({ url, setNavIsOpen, children }) => {
   const handleClick = () => {

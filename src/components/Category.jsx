@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import "../styles/Category.scss"
+import "../styles/components/Category.scss"
 import { CategoryItem } from './CategoryItem'
 import data from '../data.json'
 

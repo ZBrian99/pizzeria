@@ -1,5 +1,5 @@
 import React from 'react'
-import "../styles/Stats.scss"
+import "../styles/components/Stats.scss"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { fas } from '@fortawesome/free-solid-svg-icons'; // Importa todos los íconos sólidos
 const StatsObj = { branches: 100, awards: 85, customers: 10567, staff: 900 }

@@ -1,4 +1,4 @@
-import "../styles/NavBrand.scss"
+import "../styles/components/NavBrand.scss"
 import logo from "../assets/pizzalogo.svg" 
 import { Link } from "react-router-dom"
 export const NavBrand = () => {
