@@ -11,8 +11,9 @@ export const NavButton = ({ url, setNavIsOpen, children }) => {
     });
   };
   return (
-    <Link className='NavButton' to={url} onClick={handleClick}>{children}</Link>
-
-  );
+		<Link className='NavButton' to={url} onClick={handleClick}>
+			{children}
+		</Link>
+	);
 };
 

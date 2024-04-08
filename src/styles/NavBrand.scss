@@ -1,26 +1,29 @@
 .NavBrand {
-  text-decoration: none;
-  display: flex;
-  flex-direction: column;
-  color: white;
-  margin-left: 2rem;
-  
-  &-logo {
-    width: 1.7em;
-  }
+	text-decoration: none;
+	display: flex;
+	flex-direction: column;
+	color: white;
+	margin-left: 2rem;
 
-  &-content {
-    display: flex;
-    gap: .5rem;
-  }
+	@media screen and (min-width: 60rem) {
+		margin-left: 7%;
+	}
+	&-logo {
+		width: 1.7em;
+	}
 
-  &-title {
-    font-size: 1.5em;
-  }
+	&-content {
+		display: flex;
+		gap: 0.5rem;
+	}
 
-  &-description {
-    color: #fac564;
-    font-size: .8em;
-    letter-spacing: .25em;
-  }
+	&-title {
+		font-size: 1.5em;
+	}
+
+	&-description {
+		color: #fac564;
+		font-size: 0.8em;
+		letter-spacing: 0.25em;
+	}
 }

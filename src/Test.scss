@@ -1,0 +1,54 @@
+.container2 {
+	min-height: 300vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 5rem;
+	padding: 1rem;
+}
+.item-container {
+	display: flex;
+	gap: 1rem;
+	width: 100%;
+	height: 30rem;
+	background-color: lightslategrey;
+	overflow: hidden;
+	&:nth-child(1) .item {
+		background-color: lightblue;
+	}
+	&:nth-child(2) .item {
+		background-color: lightgreen;
+	}
+	&:nth-child(3) .item {
+		background-color: lightcoral;
+	}
+}
+// .item {
+// 	width: 10rem;
+// 	height: 10rem;
+// 	opacity: 0;
+// 	transform: translateY(100%);
+// 	transition: all 0.5s;
+// 	&:nth-child(1) {
+// 		background-color: lightblue;
+// 	}
+// 	&:nth-child(2) {
+// 		background-color: lightgreen;
+// 	}
+// 	&:nth-child(3) {
+// 		background-color: lightcoral;
+// 	}
+// }
+
+.item {
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transform: translatex(-100%);
+	transition: all 1s ease-in-out;
+}
+
+.isVisible {
+	opacity: 1;
+	transform: translatex(0);
+}
