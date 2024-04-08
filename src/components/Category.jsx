@@ -35,7 +35,7 @@ export const Category = () => {
 	}
 
 	return (
-		<div className='Category'>
+		<div className='Category' id='category'>
 			<div className='Category-FoodButtonsContainer' ref={ref}>
 				<button className={`Category-FoodButton  ${inView && 'isVisible'}`} onClick={handlePizzaButton}>
 					Pizza

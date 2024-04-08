@@ -9,7 +9,7 @@ export const Menu = () => {
 		triggerOnce: true,
 	});
 	return (
-		<div className='Menu' ref={ref}>
+		<div className='Menu' ref={ref} id='menu'>
 			<div className={`Menu-Header ${inView && 'isVisible'}`}>
 				<h2 className='Menu-Title'>PIZZA MENU</h2>
 				<p className='Menu-Description'>
