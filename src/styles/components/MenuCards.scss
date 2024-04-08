@@ -4,7 +4,7 @@
 	width: 30rem;
 	height: 15rem;
 	display: flex;
-
+	overflow: hidden;
 	@media screen and (max-width: 60rem) {
 		&:nth-child(even) &-Container {
 			flex-direction: row-reverse;
@@ -14,9 +14,8 @@
 	&-Container {
 		display: flex;
 		width: 100%;
-
+		transform: translateX(-100%);
 		opacity: 0;
-		transform: translateY(100%);
 		transition: all 1s ease;
 	}
 	&-ImagenContainer {
@@ -91,6 +90,6 @@
 	}
 }
 .isVisible {
-	transform: translateY(0);
+	transform: translateX(0);
 	opacity: 1;
 }

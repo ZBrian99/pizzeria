@@ -35,9 +35,9 @@
 
 	&-Price {
 		background-color: rgb(0, 0, 0, 0.2);
-		opacity: 0;
+		// opacity: 0;
 		color: #fac564;
-    font-size: 1.5em;
+    font-size: 1.3em;
 		transition: all 0.2s ease-in-out;
 		padding-left: 1rem;
 	}
@@ -49,7 +49,7 @@
 	}
 
 	&:hover &-Price {
-		background-color: rgb(0, 0, 0, 0.2);
-		opacity: 1;
+		// background-color: rgb(0, 0, 0, 0.2);
+		// opacity: 1;
 	}
 }

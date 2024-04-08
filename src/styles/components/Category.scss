@@ -1,39 +1,104 @@
 .Category {
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    gap: 16px;
-    padding: 3rem 1rem;
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	gap: 1rem;
+	padding: 3rem 1rem 0;
+	overflow: hidden;
+	position: relative;
 
-    &-FoodButtonsContainer {
-        display: flex;
-        width: 100%;
-        flex-direction: column;
-        gap: .5rem;
-    }
+	&-FoodButtonsContainer {
+		display: flex;
+		width: 100%;
+		flex-direction: column;
+		gap: 0.5rem;
+		margin: auto;
+		@media screen and (min-width: 60rem) {
+			max-width: 30rem;
+			flex-direction: row;
+		}
+	}
 
-    &-FoodButton {
-        text-align: left;
-        font-size: 1.2em;
-        background-color: transparent;
-        color: #fac564;
-        border:1px solid #fac564;
-        width: 100%;
-        padding: 1rem;
-        transition: all .2s ease-out;
-        &:hover{
-        background-color: #fac564;
-        color: black;
-        cursor: pointer;
+	&-FoodButton {
+		text-align: left;
+		font-size: 1.2em;
+		background-color: transparent;
+		color: #fac564;
+		border: 0.0625rem solid #fac564;
+		width: 100%;
+		padding: 16px;
 
-    }
-    }
+		&:hover {
+			background-color: #fac564;
+			color: black;
+			cursor: pointer;
+		}
+		transition: transform 0.5s ease, opacity 0.5s ease;
+		transform: translateX(100%);
 
-    &-Items {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        padding: 48px 1rem;
-       
-    }
+		&:nth-child(even) {
+			transform: translateX(-100%);
+		}
+
+		&:nth-child(1) {
+			opacity: 0;
+		}
+		&:nth-child(2) {
+			transition-delay: 0.3s;
+			opacity: 0;
+		}
+
+		&:nth-child(3) {
+			transition-delay: 0.6s;
+			opacity: 0;
+		}
+
+		&:nth-child(4) {
+			transition-delay: 0.9s;
+			opacity: 0;
+		}
+		@media screen and (min-width: 60rem) {
+			transform: translateY(100%);
+			&:nth-child(even) {
+				transform: translateY(-100%);
+			}
+		}
+	}
+
+	&-Items {
+		display: flex;
+		flex-direction: column;
+		gap: 3rem;
+		width: 100%;
+		padding: 3rem 1rem;
+    justify-content: center;
+    align-items: center;
+		@media screen and (min-width: 60rem) {
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+	}
+}
+
+.isVisible {
+	transform: translate(0);
+
+	&:nth-child(even) {
+		transform: translate(0);
+	}
+	&:nth-child(1) {
+		opacity: 1;
+	}
+	&:nth-child(2) {
+		opacity: 1;
+	}
+
+	&:nth-child(3) {
+		opacity: 1;
+	}
+
+	&:nth-child(4) {
+		opacity: 1;
+	}
 }

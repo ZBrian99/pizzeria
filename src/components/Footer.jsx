@@ -30,9 +30,9 @@ export const Footer = () => {
       </div>
       <div className="Footer-Section">
         <h3 className="Footer-SectionTitle">HAVE A QUESTIONS?</h3>
-        <p  className="Footer-SectionDescription">🔍203 Fake St. Mountain View, San Francisco, California, USA</p>
-        <p  className="Footer-SectionDescription">📱+2 392 3929 210</p>
-        <p  className="Footer-SectionDescription">✉️info@yourdomain.com</p>
+        <p  className="Footer-SectionDescription">🔍 203 Fake St. Mountain View, San Francisco, California, USA</p>
+        <p  className="Footer-SectionDescription">📱 +2 392 3929 210</p>
+        <p  className="Footer-SectionDescription">✉️ info@yourdomain.com</p>
       </div>
       <p  className="Footer-SectionCopy">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam sint minus aut omnis est iste animi a repellat ipsam fugit.</p>
     </div>
