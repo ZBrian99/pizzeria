@@ -23,9 +23,9 @@ body {
 .MainContainer {
 	min-height: 100vh;
 	width: 100%;
-  max-width: 100rem;
+	max-width: 100rem;
 	position: relative;
-  margin: auto;
+	margin: auto;
 	padding-top: 5rem;
 }
 
@@ -55,17 +55,12 @@ span {
 	font-style: normal;
 }
 
-.mainContainer {
+.SubPageContainer {
 	width: 100%;
-}
-
-.SubPageContainer{
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  min-height: 100vh;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	min-height: 100vh;
 	width: 100%;
 	position: relative;
-
 }
