@@ -1,68 +1,59 @@
 .Info {
-    display: flex;
-    width: 100%;
-    background-color: black;
-    &-TextDisplayer {
-        width: 70%;
-        height: 100%;
-        color: white;
-    }
+	display: flex;
+	width: 100%;
+	background-color: black;
+	&-TextDisplayer {
+		width: 70%;
+		height: 100%;
+	}
 
-    &-SocialButtonContainer {
-        width: 30%;
-        height:auto;
-        background-color: #fac654;     
-        align-items: center;   
-        justify-content: center;
-        gap: 16px;
-        display: flex;
-        flex-direction: column;
-        padding: 1rem 0;    }
+	&-SocialButtonContainer {
+		width: 30%;
+		height: auto;
+		background-color: #fac654;
+		align-items: center;
+		justify-content: center;
+		gap: 1rem;
+		display: flex;
+		flex-direction: column;
+		padding: 1rem 0;
+	}
 
+	&-Logo {
+		width: 100%;
+		height: 100%;
+		width: 1.5rem;
+		fill: #fac654;
+	}
 
-    &-SocialLink {
-        &:hover{
+	&-Social {
+		text-decoration: none;
+		color: white;
+		width: 3rem;
+		height: 3rem;
+	}
 
-            
-        }
-    }
+	&-Displayer {
+		display: flex;
+		color: white;
+		margin: 1rem;
+		gap: 16px;
+		align-items: center;
+	}
 
-    &-Logo {
+	&-DisplayerDescription {
+		display: flex;
+		justify-content: center;
+		gap: 0.1rem;
+		flex-direction: column;
+	}
 
-        width: 1rem;
-fill: #fac654
-    }
+	&-DisplayerTitle {
+		font-size: 1.25em;
+	}
 
-    &-Social {
-        width: 3rem;
-
-    }
-
-    &-Displayer {
-        display: flex;
-        color: white;
-        margin: 1rem;
-        gap: 16px;
-        align-items: center;
-    }
-
-
-
-    &-DisplayerDescription {
-        display: flex;
-        justify-content: center;
-        gap: .1rem;
-        flex-direction: column;
-    }
-
-    &-DisplayerTitle {
-        font-size: 1.25em;
-    }
-
-    &-DisplayerSubtitle {
-        font-size: .9em;
-    color: gray;
-
-    }
-
+	&-DisplayerSubtitle {
+		font-size: 0.9em;
+		color: gray;
+	}
 }
