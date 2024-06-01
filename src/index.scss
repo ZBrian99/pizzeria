@@ -7,7 +7,7 @@
 }
 
 html {
-	background-image: url('./assets/fondo.jpg');
+	background-image: url('/assets/fondo.jpg');
 	background-attachment: fixed;
 	scroll-behavior: smooth;
 	background-size: cover;
@@ -17,6 +17,7 @@ html {
 
 body {
 	color: white;
+	background-color: #111;
 	position: relative;
 }
 .MainContainer {
