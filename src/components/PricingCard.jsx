@@ -1,6 +1,6 @@
 import React from 'react'
 import "../styles/components/PricingCard.scss"
-export const PricingCard = ({imagen = "src/assets/pizzas/pizza-1.jpg", title = "lorem", subtitle = "lorem-ipsum", price = "0000.00"}) => {
+export const PricingCard = ({imagen = "/assets/pizzas/pizza-1.jpg", title = "lorem", subtitle = "lorem-ipsum", price = "0000.00"}) => {
     return (
         <div className='PricingCard'>
             <div className='PricingCard-ImageContainer'>

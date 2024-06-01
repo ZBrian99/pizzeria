@@ -3,7 +3,7 @@ import { useInView } from 'react-intersection-observer';
 import '../styles/components/CategoryItem.scss';
 
 export const CategoryItem = ({
-	imagen = 'src/assets/pizzas/pizza-1.jpg',
+	imagen = '/assets/pizzas/pizza-1.jpg',
 	title = 'lorem',
 	subtitle = 'lorem-ipsum',
 	price = '0000.00',

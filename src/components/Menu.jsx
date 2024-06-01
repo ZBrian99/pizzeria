@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/components/Menu.scss';
 import { MenuCard } from './MenuCard';
-// const Menu =[{image="src/assets/pizzas/pizza-1.jpg"}]
+// const Menu =[{image="/assets/pizzas/pizza-1.jpg"}]
 import { pizzas } from '../data.json';
 import { useInView } from 'react-intersection-observer';
 export const Menu = () => {

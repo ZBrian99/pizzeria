@@ -2,8 +2,6 @@ import '../styles/components/NavBar.scss';
 import { NavButton } from './NavButton';
 import { NavBrand } from './NavBrand';
 import { useEffect, useRef, useState } from 'react';
-import navButtonIcon from '../assets/icons/burger-menu-right-svgrepo-com.svg';
-import navButtonIconClose from '../assets/icons/cross-svgrepo-com.svg';
 export const NavBar = () => {
 	const [navIsOpen, setNavIsOpen] = useState(true);
 
@@ -41,7 +39,7 @@ export const NavBar = () => {
 					>
 						<img
 							className='NavButtonIcon'
-							src={navIsOpen ? navButtonIcon : navButtonIconClose}
+							src={navIsOpen ? '/assets/icons/burger-menu-right-svgrepo-com.svg' : '/assets/icons/cross-svgrepo-com.svg'}
 							alt='nav buton'
 						/>
 					</button>

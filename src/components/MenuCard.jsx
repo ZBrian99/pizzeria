@@ -2,7 +2,7 @@ import React from 'react';
 import { useInView } from 'react-intersection-observer';
 import '../styles/components/MenuCards.scss';
 export const MenuCard = ({
-	imagen = 'src/assets/pizzas/pizza-1.jpg',
+	imagen = '/assets/pizzas/pizza-1.jpg',
 	title = 'lorem',
 	subtitle = 'lorem-ipsum',
 	price = '0000.00',

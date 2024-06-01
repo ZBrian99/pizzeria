@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/components/NewsCard.scss";
 export const NewsCard = ({
-  imagen = "src/assets/news/image_1.jpg",
+  imagen = "/assets/news/image_1.jpg",
   title = "lorem",
   description = "loremDescription",
   date = "Sept 10, 2018",

@@ -14,7 +14,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing.
         </p>
 {
     pizzas.slice(0, 3).map((pizza, index) => (
-        <NewsCard key={index} {...pizza} imagen={`src/assets/news/image_${index+1}.jpg`} />
+        <NewsCard key={index} {...pizza} imagen={`/assets/news/image_${index+1}.jpg`} />
       ))
       
 }

@@ -57,11 +57,11 @@ export const Carousel = () => {
 				className='Carousel-ImgContainer'
 				style={{ transform: `translateX(${imagen === 1 ? 0 : (imagen - 1) * -100}%)` }}
 			>
-				<img draggable='false' src='src/assets/pizzas/pizza-1.jpg' className='Carousel-Image' alt='' />
-				<img draggable='false' src='src/assets/pizzas/pizza-2.jpg' className='Carousel-Image' alt='' />
-				<img draggable='false' src='src/assets/pizzas/pizza-7.jpg' className='Carousel-Image' alt='' />
-				<img draggable='false' src='src/assets/pizzas/pizza-4.jpg' className='Carousel-Image' alt='' />
-				<img draggable='false' src='src/assets/pizzas/pizza-5.jpg' className='Carousel-Image' alt='' />
+				<img draggable='false' src='/assets/pizzas/pizza-1.jpg' className='Carousel-Image' alt='' />
+				<img draggable='false' src='/assets/pizzas/pizza-2.jpg' className='Carousel-Image' alt='' />
+				<img draggable='false' src='/assets/pizzas/pizza-7.jpg' className='Carousel-Image' alt='' />
+				<img draggable='false' src='/assets/pizzas/pizza-4.jpg' className='Carousel-Image' alt='' />
+				<img draggable='false' src='/assets/pizzas/pizza-5.jpg' className='Carousel-Image' alt='' />
 			</div>
 			<button className='Carousel-Right' onClick={handleNextButton}>
 				{'>'}
