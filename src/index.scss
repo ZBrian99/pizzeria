@@ -7,17 +7,18 @@
 }
 
 html {
-	background-image: url('/assets/fondo.jpg');
-	background-attachment: fixed;
-	scroll-behavior: smooth;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center center;
+  scroll-behavior: smooth;
+
 }
 
 body {
 	color: white;
 	background-color: #111;
+  	background-image: url('/assets/fondo.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
 	position: relative;
 }
 .MainContainer {
