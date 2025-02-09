@@ -14,19 +14,13 @@ export const ContactUs = () => {
 				></iframe>
 			</div>
 			<div className='ContactUs-FormContainer'>
-				<h2 className='ContactUs-FormTitle'>Lorem, ipsum.</h2>
+				<h2 className='ContactUs-FormTitle'>Contact Us</h2>
 				<form action='' className='ContactUs-Form'>
 					<input type='text' id='name' placeholder='Name' className='ContactUs-FormInput' />
 
 					<input type='email' id='mail' placeholder='Mail' className='ContactUs-FormInput' />
 
-					<textarea
-						id='message'
-						cols=''
-						rows=''
-						placeholder='Message'
-						className='ContactUs-FormTextArea'
-					></textarea>
+					<textarea id='message' cols='' rows='' placeholder='Message' className='ContactUs-FormTextArea'></textarea>
 
 					<input type='submit' value={'Send'} className='ContactUs-FormSubmit' />
 				</form>

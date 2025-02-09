@@ -3,58 +3,47 @@
 		{
 			"imagen": "/assets/pizzas/pizza-1.jpg",
 			"title": "Pizza Margarita",
-			"subtitle": "Salsa de tomate, uwuzzarela y albahaca fresca",
+			"subtitle": "Salsa de tomate, muzzarela y albahaca fresca",
 			"price": "8.50"
 		},
 
 		{
 			"imagen": "/assets/pizzas/pizza-3.jpg",
 			"title": "Pizza Hawaiana",
-			"subtitle": "Salsa de tomate, uwuzzarela, jamón y piña",
+			"subtitle": "Salsa de tomate, muzzarela, jamón y piña",
 			"price": "10.25"
 		},
 		{
 			"imagen": "/assets/pizzas/pizza-4.jpg",
 			"title": "Pizza Vegetariana",
-			"subtitle": "Salsa de tomate, uwuzzarela, champiñones, pimientos y aceitunas",
+			"subtitle": "Salsa de tomate, muzzarela, champiñones, pimientos y aceitunas",
 			"price": "9.00"
 		},
 		{
 			"imagen": "/assets/pizzas/pizza-5.jpg",
 			"title": "Pizza Cuatro Quesos",
-			"subtitle": "Salsa de tomate, uwuzzarela, queso azul, queso de cabra y parmesano",
+			"subtitle": "Salsa de tomate, muzzarela, queso azul, queso de cabra y parmesano",
 			"price": "11.50"
 		},
 		{
 			"imagen": "/assets/pizzas/pizza-6.jpg",
 			"title": "Pizza Barbacoa",
-			"subtitle": "Salsa de barbacoa, uwuzzarela, pollo a la barbacoa, cebolla y maíz",
+			"subtitle": "Salsa de barbacoa, muzzarela, pollo a la barbacoa, cebolla y maíz",
 			"price": "12.75"
 		},
 		{
 			"imagen": "/assets/pizzas/pizza-7.jpg",
 			"title": "Pizza Mediterránea",
-			"subtitle": "Salsa de tomate, uwuzzarela, aceitunas, tomates secos y rúcula",
+			"subtitle": "Salsa de tomate, muzzarela, aceitunas, tomates secos y rúcula",
 			"price": "10.75"
 		},
 		{
 			"imagen": "/assets/pizzas/pizza-8.jpg",
 			"title": "Pizza Carnívora",
-			"subtitle": "Salsa de tomate, uwuzzarela, pepperoni, salchicha italiana y jamón",
+			"subtitle": "Salsa de tomate, muzzarela, pepperoni, salchicha italiana y jamón",
 			"price": "11.95"
-		},
-		{
-			"imagen": "/assets/pizzas/pizza-5.jpg",
-			"title": "Pizza Cuatro Quesos",
-			"subtitle": "Salsa de tomate, uwuzzarela, queso azul, queso de cabra y parmesano",
-			"price": "11.50"
-		},
-		{
-			"imagen": "/assets/pizzas/pizza-6.jpg",
-			"title": "Pizza Barbacoa",
-			"subtitle": "Salsa de barbacoa, uwuzzarela, pollo a la barbacoa, cebolla y maíz",
-			"price": "12.75"
 		}
+		
 	],
 	"pastas": [
 		{

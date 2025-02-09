@@ -10,8 +10,8 @@ export const Footer = () => {
 			<div className='Footer-Section'>
 				<h3 className='Footer-SectionTitle'>ABOUT US</h3>
 				<p className='Footer-SectionDescription'>
-					Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum sint recusandae velit porro
-					quibusdam illum?
+					Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind
+					texts.
 				</p>
 				<div className='Footer-SectionSocialMediaContainer'>
 					<button className='Footer-SocialMedia'>
@@ -47,16 +47,10 @@ export const Footer = () => {
 			</div>
 			<div className='Footer-Section'>
 				<h3 className='Footer-SectionTitle'>HAVE A QUESTIONS?</h3>
-				<p className='Footer-SectionDescription'>
-					🔍 203 Fake St. Mountain View, San Francisco, California, USA
-				</p>
-				<p className='Footer-SectionDescription'>📱 +2 392 3929 210</p>
-				<p className='Footer-SectionDescription'>✉️ info@yourdomain.com</p>
+				<p className='Footer-SectionDescription'>🔍 Buenos Aires, Argentina</p>
+				<p className='Footer-SectionDescription'>📱 +54 223 669 8045</p>
+				<p className='Footer-SectionDescription'>✉️ contacto@interup.dev</p>
 			</div>
-			<p className='Footer-SectionCopy'>
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam sint minus aut omnis est iste animi a
-				repellat ipsam fugit.
-			</p>
 		</div>
 	);
 };

@@ -21,9 +21,6 @@ export const Menu = () => {
 			{pizzas.map((item, i) => (
 				<MenuCard key={i} {...item} />
 			))}
-			{pizzas.map((item, i) => (
-				<MenuCard key={i} {...item} />
-			))}
 		</div>
 	);
 };

@@ -4,9 +4,9 @@ import '../styles/components/CategoryItem.scss';
 
 export const CategoryItem = ({
 	imagen = '/assets/pizzas/pizza-1.jpg',
-	title = 'lorem',
-	subtitle = 'lorem-ipsum',
-	price = '0000.00',
+	title = 'Pizza Carnívora',
+	subtitle = 'Salsa de tomate, muzzarela, pepperoni, salchicha italiana y jamón',
+	price = '11.95',
 	button = 'Order',
 }) => {
 	const { ref, inView } = useInView({

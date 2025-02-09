@@ -26,14 +26,17 @@
 	&-Info {
 		display: flex;
 		flex-direction: column;
-		width: 100%;
-		padding: 5rem 1rem;
+    gap: 2rem;
+    text-align: center;
+    padding: 3rem 1rem;
     @media screen and (min-width: 60rem) {
+      text-align: start;
 			width: 50%;
 		}
 	}
 	&-Title {
-		font-size: 2em;
+		font-size: 2.5em;
+		line-height: 1.2;
 		transform: translateY(100%);
 		opacity: 0;
 		transition: all 1s ease;
@@ -43,12 +46,18 @@
 		color: #fac564;
 		font-family: 'Nothing You Could Do', cursive;
 		font-size: 1.1em;
+		display: inline-block;
+		margin: 0 0.3rem;
 	}
 	&-Lore {
 		color: #808080;
 		transform: translateY(50%);
 		opacity: 0;
 		transition: all 2s ease;
+    line-height: 1.8;
+		font-size: 1.1rem;
+		max-width: 40rem;
+		letter-spacing: 0.02em;
 	}
 }
 

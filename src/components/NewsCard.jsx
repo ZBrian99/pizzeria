@@ -2,9 +2,9 @@ import React from "react";
 import "../styles/components/NewsCard.scss";
 export const NewsCard = ({
   imagen = "/assets/news/image_1.jpg",
-  title = "lorem",
-  description = "loremDescription",
-  date = "Sept 10, 2018",
+  title = "Especial Pizza",
+  description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics.",
+  date = "Sept 10, 2018", 
   owner = "Admin",
   comments = "3",
   className="",

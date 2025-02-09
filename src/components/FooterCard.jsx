@@ -2,7 +2,7 @@ import React from 'react'
 import "../styles/components/FooterCard.scss";
 export const FooterCard = ({
     imagen = "/assets/news/image_1.jpg",
-    title = "lorem",
+    title = "Especial Pizza",
     date = "Sept 10, 2018",
     owner = "Admin",
     comments = "3",

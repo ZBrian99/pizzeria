@@ -8,7 +8,7 @@ export const Hero = () => {
 
 			{/* <span className="Hero-frase"> hero frase
             </span> */}
-			<h2 className='Hero-title'> Lorem ipsum dolor sit!</h2>
+			<h2 className='Hero-title'> Welcome to our restaurant</h2>
 			<div className='Hero-imgContainer'>
 				{/* <img className="Hero-img" src="/assets/plato.png" alt="plato.png" /> */}
 				<Carousel />
